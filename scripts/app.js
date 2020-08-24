@@ -64,12 +64,10 @@
         }
     };
 
-    // Updates a timestation card with the latest weather forecast. If the card
     // doesn't already exist, it's cloned from the template.
 
     app.updateTimetableCard = function (data) {
         var key = data.key;
-        var dataLastUpdated = new Date(data.created);
         var schedules = data.schedules;
         var card = app.visibleCards[key];
 
