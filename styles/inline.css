@@ -367,6 +367,12 @@ body {
     width: 32px;
     height: 32px; } }
 
+@media all and (display-mode: standalone) {
+    body {
+        background-color: yellow;
+    }
+}
+
 .mdl-button {
   background: transparent;
   border: none;
