@@ -95,6 +95,9 @@
         }
 
         if (app.isLoading) {
+            //Init taller 3 Headless testing
+            window.cardLoadTime = performance.now();
+            //Final taller 3 Headless testing
             app.spinner.setAttribute('hidden', true);
             app.container.removeAttribute('hidden');
             app.isLoading = false;
